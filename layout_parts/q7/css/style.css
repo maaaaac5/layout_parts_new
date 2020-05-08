@@ -2,4 +2,84 @@
 
 /* 回答はここに書いてね */
 
+.is_float::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float_text {
+  width: 225px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.float_text:last-child {
+  margin-left: 50px;
+}
+
+.is_table {
+  display: table;
+}
+
+.is_table_cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.is_table_cell:last-child {
+  padding-left: 50px;
+}
+
+.q7_text {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+
+
+.inlineblock_inner {
+  font-size: 0;
+}
+
+.inlineblock_text {
+  display: inline-block;
+}
+
+.inlineblock_text:last-child {
+  margin-left: 50px;
+}
+
+
+
+.is_flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.margin_wrapper {
+  font-size: 0;
+}
+
+.is_stable {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.is_flexible {
+  display: inline-block;
+  margin-left: -300px;
+  padding-left: 350px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.margin_text {
+  font-size: 16px;
+}
+
 /* 回答はここに書いてね */

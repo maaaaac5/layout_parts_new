@@ -2,4 +2,36 @@
 
 /* 回答はここに書いてね */
 
+.q9_text {
+  width: 500px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+  border: solid 5px #222;
+  position: relative;
+  margin: 0 auto;
+}
+
+.q9_text:before {
+  content: "";
+  border-top: 25px solid #222;
+  border-right: 25px solid transparent;
+  border-bottom:  25px solid transparent;
+  border-left: 25px solid transparent;
+  position: absolute;
+  left: 25px;
+  bottom: -50px;
+}
+
+.q9_text:after {
+  content: "";
+  border-top: 20px solid #fff;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid transparent;
+  position: absolute;
+  left: 30px;
+  bottom: -38px;
+}
 /* 回答はここに書いてね */
