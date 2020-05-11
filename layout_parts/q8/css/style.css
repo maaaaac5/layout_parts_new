@@ -8,6 +8,10 @@
   margin: 0 auto;
 }
 
+.trans_img {
+  transition: all 0.5s;
+}
+
 .trans_text {
   position: absolute;
   color: #fff;
@@ -16,14 +20,13 @@
   word-break: break-all;
 }
 
-
-.q8_trans:hover img {
+.q8_trans:hover .trans_img {
   transform: scale(1.5);
-  transition-duration: 0.5s;
+  transition: all 0.5s;
   cursor: pointer;
 }
 
-.q8_trans:hover p {
+.q8_trans:hover .trans_text {
   bottom: 0;
   transition: all 0.5s;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 8));

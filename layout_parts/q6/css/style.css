@@ -11,11 +11,11 @@
   padding: 10px 0;
 } 
 
-.is-text-align .q6_box_text {
+.d-inline-block {
   display: inline-block;
 }
 
-.is_margin .q6_box_text {
+.block-center {
   margin: 0 auto;
   text-align: center;
 }
